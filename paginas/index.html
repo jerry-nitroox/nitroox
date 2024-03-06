@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nitroox App</title>
+    <link rel="stylesheet" href="../estilos/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+    <script src="../scripts/script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html"><img src="../img/logotipo.png" id="logotipo"></a>
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars" aria-hidden="true"></i>
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#seccion-principal">Inicio</a></li>
+                    <li><a href="#seccion-servicios">Servicios</a></li>
+                    <li><a href="#seccion-nosotros">Nosotros</a></li>
+                    <li><a href="#contacteme">Contacto</a></li>
+                    <li><a href="#secc-subs">Suscríbete</a></li>
+                    <li><a href="novedades.html" target="_blank">Novedades</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="seccion-principal">
+            <section class="seccion-inicio">
+                <div class="Inicio">
+                    <div>
+                        <h2 class="titulo-inicio">Inicio</h2>
+                    </div>
+                    <div>
+                        <p class="descripcion-inicio">Bienvenido a la Página Oficial de Nitroox</p>
+                    </div>
+                </div>
+            </section>
+            <section id="seccion-servicios">
+                <div class="cont-servicios">
+                    <div>
+                        <h2>Servicios</h2>
+                    </div>
+                    <div class="cont-tarjetas-servicios">
+                        <div class="tarjetas">
+                            <div class="servicio1">
+                                <img class="img-servicio1" src="../img/normal.png">
+                                <h3>Próximamente</h5>
+                                <p>Próximamente estaremos implementando nuevos servicios.</p>
+                                <a href="index.html"><button type="button">Próximamente</button></a>
+                            </div>
+                            <div class="servicio2">
+                                <img class="img-servicio2" src="../img/normal.png">
+                                <h3>Próximamente</h3>
+                                <p>Próximamente estaremos implementando nuevos servicios.</p>
+                                <button>Proximamente</button>
+                            </div>
+                            <div class="servicio3">
+                                <img class="img-servicio3" src="../img/normal.png">
+                                <h3>Próximamente</h3>
+                                <p>Próximamente estaremos implementando nuevos servicios.</p>
+                                <button>Proximamente</button>
+                            </div>
+                            <div class="servicio4">
+                                <img class="img-servicio2" src="../img/normal.png">
+                                <h3>Próximamente</h3>
+                                <p>Próximamente estaremos implementando nuevos servicios.</p>
+                                <button>Proximamente</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="seccion-nosotros">
+                <div class="acerca-de">
+                    <h2>Acerca de Nosotros</h2>
+                    <div class="cont-acer-de">
+                        <p>Nitroox es un equipo dedicado a brindar servicios tecnológico y de entretenimiento. Ofrecemos servicios como: instalación de softwares, creación de programas, entretenimiento y fotografía.</p>
+                        <img class="acerca-imagen" src="../img/normal.png">
+                    </div>
+                </div>
+            </section>
+            <section id="contacteme">
+                <div class="cont-cont">
+                    <h2>Contáctanos</h2>
+                    <p>Puedes encontrarnos en todas las redes sociales como <b>"Nitroox Oficial"</b></p>
+                    <div class="cont-im-rds">
+                        <img src="../img/contacto/sin-imagen-redes.png">
+                        <img src="../img/contacto/sin-imagen-redes.png">
+                        <img src="../img/contacto/sin-imagen-redes.png">
+                        <img src="../img/contacto/sin-imagen-redes.png">
+                        <img src="../img/contacto/sin-imagen-redes.png">
+                    </div>
+                </div>
+            </section>
+            <section id="secc-subs">
+                <h2>Subscríbete</h2>
+                <p class="subtitulo">Registra tus datos para poderte enviar notificaciones a tu correo electrónico</p>
+                <form method="get" class="formulario" id="form">
+                    <div class="input-row">
+                        <label for="nombre">Nombre:</label>
+                        <input id="nombre" name="nombre" type="text" required>
+                    </div>
+                    <div class="input-row">
+                        <label for="telefono">Teléfono:</label>
+                        <input id="telefono" name="telefono" type="text" required>
+                    </div>
+                    <div class="input-row">
+                        <label for="correo">Correo:</label>
+                        <input id="correo" name="correo" type="email" placeholder="juanito@ejemplo.com" required>
+                    </div>
+                    <div class="input-row">
+                        <label for="comentario">Comentario:</label>
+                        <textarea name="comentario" id="comentario" placeholder="Opcional..."></textarea>
+                    </div>
+                    <div class="input-row">
+                        <button>Enviar</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <div id="info">
+                <p><b>@Nitroox 2024</b></p>
+                <p>Todos los derechos reservados</p>
+            </div>
+            <div class="flotantes">
+                <div class="titulo-flotantes"><b>Redes</b></div>
+                <div class="botones">
+                    <div>
+                        <a href="https://youtube.com/@Nitroox_Oficial?si=5pOZ4cfc8Yrrn5A3" target="_blank">
+                            <img src="../img/redes/iconyoutube.png">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="www.instagram.com" target="_blank">
+                            <img src="../img/redes/iconsinsta.png">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://t.me/nitrooxjemm_bot" target="_blank">
+                            <img src="../img/redes/icontelegram.png">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="www.whatsapp.com" target="_blank">
+                            <img src="../img/redes/iconwhatsapp.png">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="www.facebook.com" target="_blank">
+                            <img src="../img/redes/iconfacebook.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
